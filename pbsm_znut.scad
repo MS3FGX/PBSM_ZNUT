@@ -126,6 +126,7 @@ module z_nut()
 
 // Rendering
 //brass_nut();
+rotate([90, 180, 0]) // Rotate for final STL export
 difference()
 {
     z_nut();
